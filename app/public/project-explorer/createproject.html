@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+
+<style>
+
+    main {
+            padding-top: 50px;
+            padding-bottom: 100px;
+            }
+
+    .footer {
+            background-color: silver;
+            padding: 10px;
+            text-align: right;
+    }
+
+</style>
+
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="index.html"> <strong>Project Explorer</strong> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                    
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Search Projects" label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+
+                
+                <a href="register.html" button class="btn" type="submit">Sign up</a>
+                <a href="login.html" button class="btn" type="submit">Login</a>
+    </div>        
+</nav> 
+
+<main>
+
+<h1 class="mx-auto" style="width: 600px" class="w-75">Submit Project</h1>
+
+<form name="submitProject" class="mx-auto" style="width: 600px" class="w-75">
+    <div class="form-group">
+        <label>Project Name:</label>
+        <input type="text" name="name" class="form-control" />
+    </div>
+    <br>
+    <div>
+        <label>Project Abstract:</label>
+        <textarea type="text" name="abstract" class="form-control"></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Authors:</label>
+        <input type="text" name="authors" class="form-control" placeholder="Enter author names (separated by comma)" />
+    </div>
+    <br>
+    <div>
+        <label>Tag(s):</label>
+        <input type="text" name="tags" class="form-control" 
+                placeholder="Use # to tag project with different topics (e.g. #javascript #mongodb" />
+    </div>
+    <br>
+    <div>        
+        <button class="btn btn-primary" type="submit">Continue</button>
+    </div>
+    </form>
+
+</main>
+
+<div class="footer">
+    <p>Project Explorer &copy; 2020 . EdConnect</p>
+</div>
+
+</html> 

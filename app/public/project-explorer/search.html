@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    
+    <style>
+
+        main {
+                    padding-top: 50px;
+                    padding-bottom: 100px;
+            }
+
+        .footer {
+                    background-color: silver;
+                    padding: 10px;
+                    text-align: right;
+            }
+        
+    </style>
+
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="index.html"> <strong>Project Explorer</strong> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                    
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Search Projects" label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+
+                
+                <a href="register.html" button class="btn" type="submit">Sign up</a>
+                <a href="login.html" button class="btn" type="submit">Login</a>
+    </div>        
+</nav> 
+
+<main>
+
+<section>
+
+<h3>Search Projects by</h3>
+
+<div class="bg-light p-3">
+
+<form name="searchForm" class="form-row">
+    <div class="form-group">
+        <input type="text" class="form-control form-control-lg" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" />
+    </div>    
+    
+    <div>        
+        <label>Search By</label>
+        <select name="searchType" class="form-control form-control-lg">
+            <option value="Name">Name</option>
+            <option value="Authors">Authors</option>
+            <option value="Abstract">Abstract</option>
+            <option value="Tags">Tags</option>
+        </select>
+    </div>    
+    
+    <div>
+        <button class="btn btn-lg btn-primary" type="submit">Search</button>        
+    </div>
+</div>
+        
+</form>
+</section>
+
+<h3>Search Results</h3>
+
+<section class="project">
+        <div class="card" style="width: 1500px;">
+            <div class="card-body">
+              <h4 class="card-title">Project Title</h4>
+    <div>
+        <ul>
+        <li class="card-subtitle mb-2 text-muted">Name: Project Code</li>
+        <li class="card-text">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat.</li>
+        <li>Program: Computer Science</li>
+        <li>Authors: Nonso Akamnonu</li>
+        <li>Year: 2020</li>
+        <li>Tags: #html, #css, #javascript, #php, #ds #sql</li>        
+        </ul>
+    </div>
+</div> 
+</div>
+</section>
+
+<section class="project">
+    <div class="card" style="width: 1500px;">
+        <div class="card-body">
+          <h4 class="card-title">Project Title</h4>
+<div>
+    <ul>
+    <li class="card-subtitle mb-2 text-muted">Name: Project DS</li>
+    <li class="card-text">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat.</li>
+    <li>Program: Computer Science</li>
+    <li>Authors: Nonso Akamnonu</li>
+    <li>Year: 2020</li>
+    <li>Tags: #html, #css, #javascript, #php, #ds #sql</li>
+    </ul>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<div class="footer">
+    <p>Project Explorer &copy; 2020 . EdConnect</p>
+</div>
+
+</html>

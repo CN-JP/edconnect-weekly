@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+
+<style>
+        .projectlist-header {
+            text-align: center;
+        }
+
+        .project-lists {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+        } 
+
+        .project {
+            flex: 1;
+            padding: 20px;
+        }
+
+        main {
+            padding-top: 50px;
+            padding-bottom: 100px;
+            }
+
+        .footer {
+            background-color: silver;
+            padding: 10px;
+            text-align: right;
+    }
+</style>
+
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-white" href="index.html"> <strong>Project Explorer</strong> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                    
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Search Projects" label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                <button class="btn" type="submit">Submit</button>
+                <a href="register.html" button class="btn" type="submit">Sign up</a>
+                <a href="login.html" button class="btn" type="submit">Login</a>
+            </form>                
+
+    </div>        
+</nav> 
+            
+<main>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Project Explorer</h1>
+        <h5>One-Stop Database for Academic Projects</h5>
+        <p>This application allows you to explore various academic projects. 
+            You can search, upload and browse projects </p> 
+
+            <a class="btn btn-primary btn-lg" href="register.html" role="button">Get Started</a>
+            <a class="btn btn-secondary btn-lg" href="login.html" role="button">Login</a>
+    </div>
+
+
+<h3 class="projectlist-header">Project Lists</h3>
+<div class="project-lists">
+
+<section class="project">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title">Project-1</h4>
+       
+    <ul>
+        <li class="card-subtitle mb-2">Name: Nonso Akamnonu</li>
+        <li class="card-text">Description: Full-Stack Web Development as a New Career Path in Tech</li>
+        <li class="card-text">Program: Computer Science</li>
+        <li class="card-text">Year: 2020</li>
+        <li class="card-text">Tags: #html, #css, #javascript, #php, #ds #sql</li>
+    </ul>
+    </div>
+</section>
+
+<section class="project">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title">Project-2</h4>
+    
+    <ul>
+        <li class="card-subtitle mb-2">Name: Nonso Akamnonu</li>
+        <li class="card-text">Description: Full-Stack Web Development as a New Career Path in Tech</li>
+        <li>Program: Computer Science</li>
+        <li>Year: 2021</li>
+        <li>Tags: #html, #css, #javascript, #php, #ds #sql</li>
+    </ul>
+    </div>
+</section>
+
+<section class="project">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title">Project-3</h4>
+    
+    <ul>
+        <li class="card-subtitle mb-2 text-muted">Name: Ogonna Akamnonu</li>
+        <li class="card-text">Description: Product Design as a New Career Path in Tech</li>
+        <li>Program: Computer Science</li>
+        <li>Year: 2021</li>
+        <li>Tags: #UI #UX #design #wireframe</li>
+    </ul>
+    </div>
+</section>
+
+<section class="project">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title">Project-4</h4>
+
+    <ul>
+        <li class="card-subtitle mb-2 text-muted">Name: Ogonna Akamnonu</li>
+        <li class="card-text">Description: Data Science as a New Career Path in Tech</li>
+        <li>Program: Computer Science</li>
+        <li>Year: 2021</li>
+        <li>Tags: #ds #sql #powerbi #tableau #python #R</li>
+    </ul>
+
+    </div>
+</section>
+
+</div> <!-- closing div tag for project-lists --> 
+
+</main>
+
+<div class="footer">
+    <p>Project Explorer &copy; 2020 . EdConnect</p>
+</div>
+
+</html>
